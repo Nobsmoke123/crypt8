@@ -1,0 +1,142 @@
+/**
+    colors ==> acid green = #96F94D,
+    colors ==> grey color = #999999
+    colors ==> black color = #000000
+*/
+
+html,
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  width: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+html ::-webkit-scrollbar,
+body ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+html ::-webkit-scrollbar-track,
+body ::-webkit-scrollbar-track {
+  background-color: #ececec;
+  border-radius: 10px;
+}
+
+html ::-webkit-scrollbar-thumb,
+body ::-webkit-scrollbar-thumb {
+  background: #96F94D;
+  border-radius: 10px;
+  width: 5px;
+  height: 3px;
+}
+
+html ::-webkit-scrollbar-thumb:hover,
+body ::-webkit-scrollbar-thumb:hover {
+  background: #96F94D;
+}
+
+html ::-webkit-scrollbar-button,
+body ::-webkit-scrollbar-button {
+  background-color: transparent;
+  width: 4em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button:focus,
+select:focus,
+input:focus,
+input:hover[type=number]::-webkit-inner-spin-button,
+input:focus,
+input:hover[type=number]::-webkit-outer-spin-button {
+  appearance: none;
+  outline: none;
+  outline: none;
+}
+
+html, body {
+  background-color: #D8D8D8;
+}
+
+
+.header{
+    background-color: #000000;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+}
+
+.headerX{
+    background-color: #000;
+    display: flex;
+    justify-content: start;
+}
+
+.write-up{
+    text-align: left !important;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25% 0;
+    z-index: 3;
+}
+
+.card{
+    padding: 1rem;
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+.card:hover{
+    background-color: #999999;
+
+}
+
+.card:hover img {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+#particles-js{
+    position : absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0 !important;
+}
+
+.logo.col-sm-12.col-md-12.col-lg-12 {
+    display: flex;
+    flex-direction: row;
+}
