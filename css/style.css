@@ -115,12 +115,12 @@ html, body {
 
 .card{
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #1F1F1F;
     margin: 5px;
 }
 
 .card:hover{
-    background-color: #999999;
+    background-color: #1F1F1F;
 
 }
 
